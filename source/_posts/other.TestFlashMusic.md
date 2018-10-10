@@ -1,0 +1,51 @@
+title: 和网易云音乐在一起
+ 
+date: 2015-12-11 17:01:38
+
+categories: Skills
+
+tags:
+  - Test
+  - 网易云音乐
+  - 外链播放器
+
+---
+
+是时候展现真正的力量了，今天突发奇想能否在Mrakdown中插入外链Flash播放器呢？Markdown实质上就是HTML，应该能，MD 想想有点小激动呢。
+
+说时迟那时快，第一时间想到的就是我最爱的网易播放器，真的有插件呢.[看文档猛戳这里](http://music.163.com/#/outchain/0/1/m/use)
+
+来来来，释放我的洪荒之力吧.
+
+<!--more-->
+
+---
+
+经过测试
+
+1.iframe播放器在PC和移动端的浏览器上均可以正常播放。
+
+2.flash播放器在移动端无法正常显示，没有插件。
+
+网易播放器插件效果
+
+1.最爱的单曲：朴树--在希望的田野上
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=139375&auto=1&height=66"></iframe>
+
+---
+
+2.轻音乐歌单：那些你熟悉却又不知道名字的轻音乐**
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="http://music.163.com/outchain/player?type=0&id=26467411&auto=0&height=430"></iframe>
+
+---
+
+PS：
+1.PC看上去效果不错噶。明天周六，晚上电影院《火星救援》走起，See you agin ...Bye Bye
+
+2.移动端（chrome）并不支持flash，效果感人，呵呵..Bye
+
+
+To be continued...
+
