@@ -1,4 +1,4 @@
-title: Sublime Text 3 使用
+title: Sublime Text 3 使用技巧
 
 date: 2015-12-29 11:02
 

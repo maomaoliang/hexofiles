@@ -1,4 +1,4 @@
-title: Markdown Demo 1
+title: Markdown Demo
 
 date: 2015-12-05 23:04:38
 
