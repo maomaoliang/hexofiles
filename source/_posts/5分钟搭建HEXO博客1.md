@@ -1,5 +1,5 @@
 ---
-title: 5分钟搭建HEXO博客（一）
+title: 5分钟搭建HEXO博客
 
 brief: ""
 
