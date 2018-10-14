@@ -4,7 +4,7 @@ title: "hexo站内搜索"
 
 date: 2018-10-13 22:45:23
 
-categories: skills
+categories: 技能
 
 tags:
     - hexo

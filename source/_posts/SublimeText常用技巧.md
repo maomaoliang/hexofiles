@@ -2,7 +2,7 @@ title: Sublime Text 3 使用技巧
 
 date: 2015-12-29 11:02
 
-categories: Skills
+categories: skills
 
 tags:
   - Sublime Text 3

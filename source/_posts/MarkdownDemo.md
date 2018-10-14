@@ -2,7 +2,7 @@ title: Markdown Demo
 
 date: 2015-12-05 23:04:38
 
-categories: Skills
+categories: skills
 
 tags: 
 
