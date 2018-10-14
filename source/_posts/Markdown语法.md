@@ -1,17 +1,18 @@
-title: Markdown Demo
+title: Markdown语法
 
 date: 2015-12-05 23:04:38
 
-categories: skills
+categories: 技能
 
 tags: 
 
 	- Markdown
 ---
 
-![Markdown Logo](https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=79cf53f2074f78f0800b9df5410a6d68/00e93901213fb80ef9ceac7132d12f2eb938947d.jpg "This is Image Title") 
+[Markdown 语法快速入门](https://www.appinn.com/markdown/basic.html)
+[Markdown 常用语法笔记](https://ouweiya.gitbooks.io/markdown)
 
-##概述##
+## 概述
 概述宗旨
 Markdown 的目标是实现「易读易写」。
 
@@ -34,17 +35,18 @@ Markdown 不是想要取代 HTML，甚至也没有要和它相近，它的语法
 
 这是一个普通段落
 md-code:
+
 ```code
-<table>
-    <tr>
-        <td>姓名</td>
-        <td>年龄</td>
-        <td>日期</td>
-    </tr>
-</table>
+    <table>
+        <tr>
+            <td>姓名</td>
+            <td>年龄</td>
+            <td>日期</td>
+        </tr>
+    </table>
 ```
-输出结果：
 
+输出结果：
 <table>
     <tr>
         <td>姓名</td>
@@ -53,7 +55,7 @@ md-code:
     </tr>
 </table>
 
-##标题##
+## 标题
 
 类 Setext 形式是用底线的形式，利用 = （最高阶标题）和 - （第二阶标题），例如：
 
@@ -83,7 +85,7 @@ md-code:
     
     ######六级标题(H6)######
 
-##区块引用##
+## 区块引用
 Markdown 标记区块引用是使用类似 email 中用 `>` 的引用方式,自己先断好行，然后在每行的最前面加上 `> `：
 
 md-code:
@@ -132,9 +134,9 @@ md-code:
 >
 > Back to the first level.
 
-##列表##
+## 列表
 
-###无序列表###
+### 无序列表
 无序列表使用星号、加号或是减号作为列表标记：
 
 md-code:
@@ -161,7 +163,7 @@ md-code:
 *   Green
 *   Blue
 
-###有序列表###
+### 有序列表
 有序列表则使用数字接着一个英文句点：
 md-code:
 ```code

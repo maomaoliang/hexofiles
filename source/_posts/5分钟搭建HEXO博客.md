@@ -7,7 +7,7 @@ date: 2018-04-22 03:27
 
 comments: true
 
-categories: Hexo
+categories: 技能
 
 tags: 
 	- Hexo
