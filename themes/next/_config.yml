@@ -306,13 +306,13 @@ codeblock:
 wechat_subscriber:
   enabled: true
   qcode: /images/wechatqcode.jpg
-  description: ex. subscribe to my blog by scanning my public wechat account
+  description: 如果喜欢我，欢迎订阅我的公众号，绝不更新~
 
 # Reward
 reward_comment: 各位小可爱，打发点，赏口饭吃咯~嘤嘤嘤
-wechatpay: /images/wechatpay.jpg
-alipay: /images/alipay.jpg
-bitcoin: /images/bitcoin.jpg
+wechatpay: /images/reward/wechatpay_1.jpg
+alipay: /images/reward/alipay_1.jpg
+bitcoin: /images/reward/bitcoin_1.jpg
 
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
@@ -825,7 +825,7 @@ pace_theme: pace-theme-minimal
 
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # JavaScript 3D library.
 # Dependencies: https://github.com/theme-next/theme-next-three
