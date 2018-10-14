@@ -7,7 +7,7 @@ title: 腹有诗书气自华的毛毛亮
 subtitle: Change myself or Keep myself
 description: &nbsp;&nbsp;&nbsp;&nbsp;感觉还可以再强一点！
 author: 毛毛亮
-language: zh-Hans
+language: zh-CN
 timezone:
 keywords: "菜鸟Web开发者,菜鸟经济管理学院研究生,真的菜"
 
@@ -81,13 +81,20 @@ pagination_dir: page
 # themes: http://hexo.io/themes/
 theme: next
 
+# 搜索插件
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
 # Social links
 social:
   github: https://github.com/maomaoliang
   twitter: https://twitter.com/your-user-name
   weibo: http://weibo.com/u/1800376583?from=myfollow_group&is_all=1
   # douban: http://douban.com/people/your-user-name
-  zhihu: http://www.zhihu.com/people/pinkpig
+  zhihu: https://www.zhihu.com/people/maomaomaoliang
   # 等等
 
 # feed setting
@@ -116,9 +123,3 @@ server:
   compress: true
   header: true
 
-# 搜索插件
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
