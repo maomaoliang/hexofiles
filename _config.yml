@@ -112,9 +112,11 @@ links:
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
+## 不要用 git 协议或者 ssh 方式 clone repo，用 https 协议，并且设置公司 http 代理：
 deploy:
   type: git
-  repository: git@github.com:maomaoliang/maomaoliang.github.io.git
+  #repository: git@github.com:maomaoliang/maomaoliang.github.io.git
+  repository:  https://github.com/maomaoliang/maomaoliang.github.io.git
   branch: master
 
 # 修改本地端口号
