@@ -1,5 +1,5 @@
 ---
-title: Mark一下，公司办公网络可以发布了
+title: Mark一下，终于解决了办公网络发布文章的问题
 
 date: 2018-10-23 21:11
 
@@ -11,4 +11,36 @@ tags:
 	- Hexo
 ---
 
-yo yo yo ,  I have solved the fucking oa-web...
+yo yo yo ,  I have solved the fucking oa-net...marked
+
+<!--more-->
+
+## 步骤1：修改站点配置文件
+
+修改的depoly的配置即可. 修改站点配置文件`.config.yml`
+
+原配置：
+
+```code
+deploy:
+  type: git
+  repository: git@github.com:maomaoliang/maomaoliang.github.io.git
+  branch: master
+```
+
+修改后配置：
+
+```code
+deploy:
+  type: git
+  repository:  https://github.com/maomaoliang/maomaoliang.github.io.git
+  branch: master
+```
+
+总结一句话：
+
+办公网络不支持：git 协议、ssh 方式 clone repo，需要用 https 协议，并且设置公司 http 代理。
+
+## 步骤2：分别设置npm和git的代理
+
+未完待续...
