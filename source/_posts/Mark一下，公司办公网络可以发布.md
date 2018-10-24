@@ -15,8 +15,6 @@ yo yo yo ,  I have solved the fucking oa-net...marked
 
 <!--more-->
 
-## 步骤1：修改站点配置文件
-
 修改的depoly的配置即可. 修改站点配置文件`.config.yml`
 
 原配置：
@@ -41,6 +39,10 @@ deploy:
 
 办公网络不支持：git 协议、ssh 方式 clone repo，需要用 https 协议，并且设置公司 http 代理。
 
-## 步骤2：分别设置npm和git的代理
+所以,git测试肯定是不会通的。
 
-未完待续...
+```code
+$ ssh git@github.com
+```
+
+**PS：根本不需要设置git代理~**
